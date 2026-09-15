@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leomar V. Escario — Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="grain"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav">
+      <a class="nav-mark" href="#home">LVE</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#hobbies" class="nav-link" data-section="hobbies">Hobbies</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    
+    <section id="home" class="section hero">
+      <div class="hero-field" aria-hidden="true">
+        <span class="field-line l1"></span>
+        <span class="field-line l2"></span>
+        <span class="field-line l3"></span>
+      </div>
+
+      <div class="hero-inner">
+        <div class="hero-photo-wrap">
+          <img src="profile.jpg" alt="Leomar V. Escario" class="hero-photo" id="heroPhoto">
+          <span class="photo-frame" aria-hidden="true"></span>
+        </div>
+
+        <p class="hero-kicker">BSIT · Central Philippines State University, San Carlos</p>
+        <h1 class="hero-name">Leomar V. Escario</h1>
+        <p class="hero-tagline" id="heroTagline"></p>
+
+        <a href="#about" class="scroll-cue">
+          <span>Scroll</span>
+          <span class="scroll-line"></span>
+        </a>
+      </div>
+    </section>
+
+    
+    <section id="about" class="section about">
+      <div class="section-inner">
+        <h2 class="section-heading">About me</h2>
+        <p class="about-text">
+          I'm Leomar Escario, a second year college student in Bachelor of Science in
+          Information Technology at Central Philippines State University, San Carlos Campus.
+          Studying at CPSU San Carlos Campus gives me great chances to learn new things every day.
+          I enjoy working on group projects and coding with my classmates. I spend my free time
+          practicing code and exploring new technology.
+        </p>
+      </div>
+    </section>
+
+    
+    <section id="skills" class="section skills">
+      <div class="section-inner">
+        <h2 class="section-heading">My skills</h2>
+        <ul class="skill-list">
+          <li class="skill-item">
+            <span class="skill-name">Teamwork</span>
+            <span class="skill-bar"><span class="skill-fill" data-fill="88"></span></span>
+          </li>
+          <li class="skill-item">
+            <span class="skill-name">Time management</span>
+            <span class="skill-bar"><span class="skill-fill" data-fill="80"></span></span>
+          </li>
+          <li class="skill-item">
+            <span class="skill-name">Problem-solving</span>
+            <span class="skill-bar"><span class="skill-fill" data-fill="85"></span></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    
+    <section id="hobbies" class="section hobbies">
+      <div class="section-inner">
+        <h2 class="section-heading">My hobbies</h2>
+        <div class="hobby-grid">
+          <div class="hobby-card">
+            <span class="hobby-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M24 10c9 0 16.5 5.6 20 14-3.5 8.4-11 14-20 14S7.5 32.4 4 24C7.5 15.6 15 10 24 10Z"/><circle cx="24" cy="24" r="6"/></svg>
+            </span>
+            <h3>Watching AI reels</h3>
+            <p>Following the latest AI tools and ideas in short bursts.</p>
+          </div>
+          <div class="hobby-card">
+            <span class="hobby-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><rect x="6" y="16" width="36" height="18" rx="4"/><circle cx="16" cy="30" r="2.4"/><circle cx="22" cy="30" r="2.4"/><circle cx="32" cy="23" r="2.4"/><circle cx="38" cy="23" r="2.4"/></svg>
+            </span>
+            <h3>Playing online games</h3>
+            <p>Squeezing in matches with classmates between classes.</p>
+          </div>
+          <div class="hobby-card">
+            <span class="hobby-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M18 34V12l20-4v22"/><circle cx="14" cy="36" r="4.5"/><circle cx="34" cy="30" r="4.5"/></svg>
+            </span>
+            <h3>Listening to music</h3>
+            <p>Keeping a playlist running while I study or code.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="projects" class="section projects">
+      <div class="section-inner">
+        <h2 class="section-heading">Project</h2>
+        <article class="project-card">
+          <div class="project-card-top">
+            <h3>Personal portfolio</h3>
+            <span class="project-tag">HTML · CSS · JavaScript</span>
+          </div>
+          <p>
+            This site — a one-page portfolio built from scratch to introduce myself,
+            my skills, and how to reach me.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    
+    <section id="contact" class="section contact">
+      <div class="section-inner">
+        <h2 class="section-heading">Contact me</h2>
+        <ul class="contact-list">
+          <li class="contact-item">
+            <span class="contact-label">Facebook</span>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener">Leomar Escario</a>
+          </li>
+          <li class="contact-item">
+            <span class="contact-label">Email</span>
+            <a href="mailto:escarioleomar7@gmail.com">escarioleomar7@gmail.com</a>
+          </li>
+          <li class="contact-item">
+            <span class="contact-label">Number</span>
+            <a href="tel:+639919076781">0991 907 6781</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Built by Leomar V. Escario</p>
+    </footer>
+
+  </main>
+
+<script src="script.js"></script>
+</body>
+</html>
